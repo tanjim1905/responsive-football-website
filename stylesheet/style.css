@@ -213,7 +213,7 @@ body {
 .year-states {
     margin: 20px 10px;
     padding: 20px 0px 100px 0px;
-    background-color: rgb(94, 94, 119);
+    background-color: #284E78;
 }
 
 .year-states .heading {
@@ -225,11 +225,12 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
+    color: #ddd;
 }
 
 .performance {
     margin: 0px 10px;
-    background-color: #2D25A0;
+    background-color: #4076b4;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #30323848;
@@ -255,11 +256,12 @@ body {
 .newsteller-main {
     width: 600px;
     max-width: 100%;
-    background-color: #3DBAFD;
+    background-color: #2d5b8f;
     margin: 0px auto;
     text-align: center;
     padding: 20px 0px;
     border-radius: 5px;
+    color: #ddd;
 }
 
 #newsteller .newsteller-heading {
