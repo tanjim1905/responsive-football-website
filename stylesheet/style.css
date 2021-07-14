@@ -359,7 +359,7 @@ header:hover #banner-section img {
 
 /* For Mobile Device */
 @media (max-width: 767px) {
-    /* Common CSS Responsive */  
+    /* Header CSS Responsive */  
     .half-width {
       width: 100%;
       padding: 20px 0;
@@ -451,6 +451,7 @@ header:hover #banner-section img {
     }
     .footer-logo {
       width: 400px;
+      margin-left: 80px;
     }
     
   }
