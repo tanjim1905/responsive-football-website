@@ -48,14 +48,14 @@ body {
 
 
 /* Header Part Start */
-header {
-    background-color: #2D25A0;
-    width: 100%;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #banner-section {
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #2D25A0;
+    width: 100%;
     padding: 80px 0px;
     
 }
@@ -64,7 +64,7 @@ header {
     transition: .3s;
 }
 
-header:hover #banner-section img {
+#banner-section:hover img {
     transform: scale(.8);
     transition: .3s;
 }
@@ -136,7 +136,6 @@ header:hover #banner-section img {
 
 .highlights-right img {
     width: 100%;
-    padding-left: 20px;
 }
 
 /*  Highlights Parts End  */
@@ -321,9 +320,13 @@ header:hover #banner-section img {
     margin: 50px 0px;
 }
 
+.footer-logo{
+    width: 400px;
+    margin: 0 auto;
+}
+
 .footer-logo img{
-    width: 50%;
-    margin: 10px 0px 10px 200px;
+    width: 100%;
 }
 
 .social-icons {
@@ -367,11 +370,10 @@ header:hover #banner-section img {
 
     .banner-left h1 {
         font-size: 48px;
-        text-align: center;
     }
 
     .banner-left .button {
-        margin: 20px auto;
+        margin: 20px 0px;
 
     }
 
@@ -388,17 +390,8 @@ header:hover #banner-section img {
 
     .highlights-left h2{
         font-size: 30px;
-        text-align: center;
-    }
-
-    .highlights-left p {
-        text-align: center;
     }
     
-    .highlights-left .button {
-        margin: 20px auto;
-    }
-
     #key-players {
         border: none;
     }
@@ -414,11 +407,7 @@ header:hover #banner-section img {
 
     .indivisual-performance {
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    .performance {
-        width: 500px;
-        margin: 10px auto;
+        grid-gap: 20px;
     }
 
     .newsteller-main form {
@@ -434,24 +423,12 @@ header:hover #banner-section img {
     
     }  
     
-    .newsteller-main .submit-btn {
-        padding: 15px 50px;
-        font-size: 20px;
-        font-weight: 600;
-        border-radius: 50px;
-        text-transform: uppercase;
-        margin-top: 15px;
-        background-color: #E02C6D;
-        color: #fff;
-    
-    }
     /* Footer Area Responsive */
     footer {
         margin: 50px 0px;
     }
     .footer-logo {
-      width: 400px;
-      margin-left: 80px;
+      width: 200px;
     }
     
   }
